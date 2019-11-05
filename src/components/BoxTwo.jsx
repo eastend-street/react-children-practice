@@ -1,7 +1,7 @@
 import React from "react";
 
 const BoxTwo = ({ children }) => {
-  return <div className="button">{children}</div>;
+  return <div className="box">{children}</div>;
 };
 
 export default BoxTwo;
