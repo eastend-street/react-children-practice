@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Box from "./components/Box/Box";
+import Box from "./components/Box";
+import BoxTwo from "./components/BoxTwo";
 
 import "./styles.css";
 
@@ -15,6 +16,14 @@ function App() {
         imageUrl="https://img.icons8.com/android/24/000000/download-2.png"
         text="Download"
       />
+      <BoxTwo>
+        <img
+          className="icon"
+          src="https://img.icons8.com/android/24/000000/download-2.png"
+          alt="icon"
+        />
+        <div>Children</div>
+      </BoxTwo>
     </div>
   );
 }
